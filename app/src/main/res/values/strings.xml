@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UTS_RubenRafferty_36238</string>
+    <string name="profile">Profile</string>
+    <string name="mainmenu">Main Menu</string>
+    <string name="Recyclerview2">https://www.youtube.com/watch?v=oymvKiCz8Bw</string>
+    <string name="Recyclerview1">https://www.youtube.com/watch?v=BcfFDhFvkgMt=667s</string>
+    <string name="optionmenu2">https://www.youtube.com/watch?v=zwabHRv2taA</string>
+    <string name="optionmenu1">https://www.youtube.com/watch?v=kknBxoCOYXI</string>
+    <string name="actionbar">https://stackoverflow.com/questions/14483393/how-do-i-change-the-android-actionbar-title-and-icon</string>
+    <string name="mediaplayer">https://stackoverflow.com/questions/27873417/stop-media-player-on-press-of-back-button</string>
+    <string name="shapableimageview">https://howtodoandroid.com/shapeableimageview-material-components-android/</string>
+    <string name="Recyclerview3">https://www.youtube.com/watch?v=4hK2yzDXgbg</string>
+    <string name="Recyclerview4">https://www.youtube.com/watch?v=HlImLDLO_V4</string>
+</resources>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/tyh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_marginTop="20dp"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        app:shapeAppearanceOverlay="@style/roundedImage"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/pp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/p5"
+        android:textColor="@color/white"
+        android:text="Ruben Rafferty"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="130dp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/p5"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="00000036238"
+        android:textSize="15dp"
+        android:layout_marginTop="160dp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/p5"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="IF 570 - BL"
+        android:layout_marginTop="175dp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/p5"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="REFERENSI :"
+        android:layout_marginTop="230dp"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <TextView
+        android:textColorLink="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="245dp"
+        android:autoLink="web"
+        android:text="@string/optionmenu1"
+        />
+
+    <TextView
+        android:textColorLink="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:autoLink="web"
+        android:text="@string/optionmenu2"
+        />
+    <TextView
+        android:textColorLink="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="275dp"
+        android:autoLink="web"
+        android:text="@string/Recyclerview1"
+        />
+
+    <TextView
+        android:textColorLink="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:autoLink="web"
+        android:text="@string/Recyclerview2"
+        />
+    <TextView
+        android:textColorLink="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="305dp"
+        android:autoLink="web"
+        android:text="@string/Recyclerview3"
+        />
+    <TextView
+        android:textColorLink="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:autoLink="web"
+        android:text="@string/Recyclerview4"
+        />
+
+    <TextView
+        android:textColorLink="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="335dp"
+        android:autoLink="web"
+        android:gravity="center_horizontal"
+        android:text="@string/actionbar"
+        />
+
+    <TextView
+        android:textColorLink="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:autoLink="web"
+        android:gravity="center_horizontal"
+        android:text="@string/mediaplayer"
+        />
+
+    <TextView
+        android:textColorLink="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="405dp"
+        android:autoLink="web"
+        android:gravity="center_horizontal"
+        android:text="@string/shapableimageview"
+        />
+</RelativeLayout>

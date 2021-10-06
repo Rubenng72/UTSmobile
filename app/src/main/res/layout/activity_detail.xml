@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rip"
+    tools:context=".detail">
+
+    <ImageView
+        android:id="@+id/imagefoto"
+        android:layout_width="217dp"
+        android:layout_height="195dp"
+        android:src="@drawable/logop5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        />
+
+    <TextView
+        android:id="@+id/textimages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        />
+
+
+    <Button
+        android:id="@+id/suara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/p5"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="#fc3503"
+        android:text="Play SFX"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="565dp" />
+</RelativeLayout>
